@@ -1,6 +1,6 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "com.bdata.moodleapp",
+    "appname": "BDATA LMS",
     "versioncode": 52100,
     "versionname": "5.2.1",
     "cache_update_frequency_usually": 420000,
@@ -87,7 +87,13 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "id": "bdata",
+            "name": "BDATA LMS",
+            "url": "https://moodle.bdata.com.mm"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,

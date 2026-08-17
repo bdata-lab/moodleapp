@@ -76,3 +76,13 @@ Thumbs.db
 
 /moodle.config.*.json
 !/moodle.config.example.json
+
+# BDATA Security Rules: Ignore secrets, keystores, and certificates
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+*.p12
+*.cer
+*.mobileprovision
+docs/
