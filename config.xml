@@ -3,6 +3,7 @@
     <name>BDATA LMS</name>
     <description>BDATA LMS Mobile App</description>
     <author email="info@bdata.com.mm" href="https://moodle.bdata.com.mm">BDATA Lab</author>
+    <icon src="resources/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -60,6 +61,18 @@
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <platform name="android">
+        <icon density="ldpi" src="resources/icon.png" />
+        <icon density="mdpi" src="resources/icon.png" />
+        <icon density="hdpi" src="resources/icon.png" />
+        <icon density="xhdpi" src="resources/icon.png" />
+        <icon density="xxhdpi" src="resources/icon.png" />
+        <icon density="xxxhdpi" src="resources/icon.png" />
+        <icon density="ldpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon density="mdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon density="hdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon density="xhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon density="xxhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon density="xxxhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/android/icon-foreground.png" />
         <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
         <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#000000" />
