@@ -25,7 +25,7 @@ Test and evaluate what core Moodle activities and custom plugins work natively i
 | **Assignment submit** | Native (Pass) | Submission status, deadlines, and file upload interface render natively. |
 | **H5P** | Native (Pass) | Core H5P interactive content runs within integrated app player. |
 | **SCORM** | In-browser / IAB (Pass) | SCORM packages require In-App Browser (IAB) execution due to legacy web runtime dependencies. |
-| **BBB join** | In-browser (Fallback) | BigBlueButton virtual classroom sessions launch in external/system browser. |
+| **BBB join** | In-browser (Pass) | BigBlueButton virtual classroom sessions launch in external/in-app browser with auto-login. |
 | **Grades** | Native (Pass) | Gradebook user report and course totals displayed natively. |
 | **Messaging** | Native (Pass) | In-app messaging, contact search, and instant communication render natively. |
 | **CustomCertificate** | In-browser (Pass) | Certificate generation and PDF download trigger browser/document viewer. |

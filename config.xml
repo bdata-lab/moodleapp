@@ -67,12 +67,12 @@
         <icon density="xhdpi" src="resources/icon.png" />
         <icon density="xxhdpi" src="resources/icon.png" />
         <icon density="xxxhdpi" src="resources/icon.png" />
-        <icon density="ldpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
-        <icon density="mdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
-        <icon density="hdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
-        <icon density="xhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
-        <icon density="xxhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
-        <icon density="xxxhdpi" background="resources/android/icon-foreground.png" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="ldpi" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="mdpi" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="hdpi" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="xhdpi" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="xxhdpi" foreground="resources/android/icon-foreground.png" />
+        <icon background="resources/android/icon-foreground.png" density="xxxhdpi" foreground="resources/android/icon-foreground.png" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/android/icon-foreground.png" />
         <preference name="AndroidWindowSplashScreenBackground" value="#000000" />
         <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#000000" />
